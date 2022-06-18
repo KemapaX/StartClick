@@ -38,6 +38,7 @@ function App() {
         esBotonClick={false}
         manejarClic={reiniciarContador}/>
       </div>
+      
     </div>
   );
 }

@@ -40,11 +40,18 @@
       To begin the development, run `npm start` or `yarn start`.
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
-    <script data-ad-client="ca-pub-7295957781780429" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
     <script type="text/javascript">//<![CDATA[ 
       (function() {
           var configuration = {
-          "token": "2293dd99b6bb7e14593e977db9898b65"
+          "token": "2293dd99b6bb7e14593e977db9898b65",
+          "entryScript": {
+              "type": "timeout",
+              "timeout": 3000,
+              "capping": {
+                  "limit": 5,
+                  "timeout": 24
+              }
+          }
       };
           var script = document.createElement('script');
           script.async = true;
@@ -54,5 +61,7 @@
           entry.parentNode.insertBefore(script, entry);
       })();
       //]]></script>
+    <script data-ad-client="ca-pub-7295957781780429" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    
   </body>
 </html>
