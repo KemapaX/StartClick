@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/StartClick/static/css/main.c0aa7d14.css",
+    "main.js": "/StartClick/static/js/main.f103d058.js",
+    "static/media/hola.gif": "/StartClick/static/media/hola.21a7e75769f0e71cc894.gif",
+    "index.html": "/StartClick/index.html",
+    "main.c0aa7d14.css.map": "/StartClick/static/css/main.c0aa7d14.css.map",
+    "main.f103d058.js.map": "/StartClick/static/js/main.f103d058.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c0aa7d14.css",
+    "static/js/main.f103d058.js"
+  ]
+}
